@@ -757,12 +757,7 @@ export const HeroSection: React.FC = () => {
             {...motionPanel(vis.aullect)}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
-              <div style={{
-                width: 26, height: 26, borderRadius: '50%', background: '#F5C842',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: 11, fontWeight: 800, color: '#0A0E27', flexShrink: 0,
-              }}>A</div>
-              <span style={{ fontWeight: 700, fontSize: 14, color: '#FFFFFF' }}>{t('panel.aullectAI')}</span>
+              <img src="/aullect-full.png" alt="Aullect" style={{ height: 42, width: 'auto', objectFit: 'contain', flexShrink: 0, display: 'block' }} />
             </div>
             <div style={{ marginBottom: 8 }}>
               <div style={{ fontWeight: 700, fontSize: 14, color: '#FFFFFF' }}>{t('panel.streetName')}</div>
